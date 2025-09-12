@@ -16,34 +16,34 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 const theme = createTheme({
-	palette: {
-		primary: {
-			light: "#f9ed3f",
-			main: "#fddb00",
-			dark: "#fea900",
-			contrastText: "#000",
-		},
-		secondary: {
-			light: "#626262",
-			main: "#222222",
-			contrastText: "#fff",
-		},
-		info: {
-			light: "#84b9ff",
-			main: "#699bfe",
-			dark: "#5f79da",
-		},
-	},
+  palette: {
+    primary: {
+      main: "#fddb00",
+      light: "#f9ed3f",
+      dark: "#fea900",
+      contrastText: "#000",
+    },
+    secondary: {
+      main: "#222222",
+      light: "#626262",
+      contrastText: "#fff",
+    },
+    info: {
+      main: "#699bfe",
+      light: "#84b9ff",
+      dark: "#5f79da",
+    },
+  },
 });
 
 createRoot(document.getElementById("root")!).render(
-	<StrictMode>
-		<QueryClientProvider client={tanStackClient}>
-			<ThemeProvider theme={theme}>
-				<Provider store={reduxStore}>
-				<App />
-				</Provider>
-		</ThemeProvider>
-		</QueryClientProvider>
-	</StrictMode>
+  <StrictMode>
+    <QueryClientProvider client={tanStackClient}>
+      <ThemeProvider theme={theme}>
+        <Provider store={reduxStore}>
+          <App />
+        </Provider>
+      </ThemeProvider>
+    </QueryClientProvider>
+  </StrictMode>,
 );

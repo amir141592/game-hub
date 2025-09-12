@@ -1,8 +1,10 @@
 {
 	"name": "game-hub",
 	"private": true,
-	"version": "0.0.0",
+	"version": "0.0.0-build.6",
 	"type": "module",
+	"author": "Amir Allahdadian",
+	"description": "This project demonstrates my react skills",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
@@ -35,6 +37,8 @@
 		"eslint-plugin-react-hooks": "^5.2.0",
 		"eslint-plugin-react-refresh": "^0.4.20",
 		"globals": "^16.3.0",
+		"prettier": "^3.6.2",
+		"prettier-plugin-tailwindcss": "^0.6.14",
 		"typescript": "~5.8.3",
 		"typescript-eslint": "^8.39.1",
 		"vite": "^7.1.2"

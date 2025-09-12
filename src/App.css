@@ -1,1 +1,56 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "'Play', sans-serif";
+  src: url("./assets/fonts/Play/Play-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "'Play', sans-serif";
+  src: url("./assets/fonts/Play/Play-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "'Signika', sans-serif";
+  src: url("./assets/fonts/Signika/Signika-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "'Signika', sans-serif";
+  src: url("./assets/fonts/Signika/Signika-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "'Signika', sans-serif";
+  src: url("./assets/fonts/Signika/Signika-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "'Signika', sans-serif";
+  src: url("./assets/fonts/Signika/Signika-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "'Signika', sans-serif";
+  src: url("./assets/fonts/Signika/Signika-Bold.ttf");
+  font-weight: 700;
+}
+
+@theme {
+  --color-primary: #fddb00;
+  --color-primary-light: #f9ed3f;
+  --color-primary-dark: #fea900;
+  --color-secondary: #222222;
+  --color-secondary-light: #626262;
+  --color-info: #699bfe;
+  --color-info-light: #84b9ff;
+  --color-info-dark: #5f79da;
+  --font-play: "Play", sans-serif;
+  --font-signika: "Signika", sans-serif;
+}
